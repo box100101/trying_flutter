@@ -31,6 +31,23 @@ trigger: always_on
 - If progress percent is uncertain, make a reasonable estimate and label it as an estimate.
 - After updating learning progress, briefly tell the user what was saved.
 
+### Learning Validation Gates
+- Learning progress is gated. Do not increase phase progress just because a lesson was explained.
+- Only increase progress after you explicitly confirm the user has passed the current milestone.
+- Evaluate the user's evidence against `memory-bank/mastery-checkpoints.md`.
+- A milestone is passed only when the user shows enough understanding through explanation, code, homework, or correction after feedback.
+- If the user is partially correct, mark the milestone as `In progress` or `Needs review`, and keep progress unchanged.
+- When a milestone is passed:
+  - update `memory-bank/learning-status.md`
+  - increase the phase progress by the milestone weight
+  - record the pass in `memory-bank/progress.md`
+  - state clearly which milestone was passed and why
+- When a milestone is not passed:
+  - keep progress unchanged
+  - explain what is still missing
+  - state the exact evidence needed to pass
+- A phase is complete only when all of its milestones in `memory-bank/mastery-checkpoints.md` are passed.
+
 ### Teaching Philosophy
 - First Principles Thinking: Don't just show me how to code; explain why it works that way.
 - Micro-learning: Break down complex topics into small, digestible chunks.

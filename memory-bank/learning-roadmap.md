@@ -19,10 +19,11 @@
 
 ## Current Lesson
 - Lesson 1: Why Flutter uses Dart and what makes Hot Reload possible
-- Status on 2026-03-25: Requested previously, but not yet taught in this session history snapshot
+- Status on 2026-03-25: In progress and awaiting milestone validation
 
 ## Progress Tracking Rule
 - Use `learning-status.md` as the single structured snapshot for current phase, progress percent, completed phases, and the exact topic currently in progress
+- Use `mastery-checkpoints.md` as the source of truth for milestone weights and pass criteria
 
 ## Teaching Contract
 - After each lesson, provide a practical code snippet

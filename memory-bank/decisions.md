@@ -6,3 +6,4 @@
 - Store both technical context and tutoring progress in the same memory bank, because this repo is both a Flutter app and a guided learning workspace.
 - Treat `active-context.md` as the first file to refresh before starting meaningful work.
 - Track learning progress in a dedicated `learning-status.md` file so phase, percent complete, completed phases, and current in-progress topic stay explicit.
+- Gate learning progress by milestone validation so percentages only move after an explicit pass decision.

@@ -4,7 +4,7 @@
 - 2026-03-25
 
 ## Current Focus
-- Start Flutter tutoring in Vietnamese with Lesson 1 and preserve the user's learning progress in the memory bank
+- Continue Flutter tutoring in Vietnamese with Lesson 1 and preserve the user's learning progress in the memory bank
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
@@ -18,6 +18,10 @@
 - Began Lesson 1 on why Flutter uses Dart and how Hot Reload works
 - Assigned the first beginner homework checkpoint for Lesson 1
 - Replaced the default Flutter `README.md` content with a Vietnamese description of the repo's learning purpose
+- Resumed Lesson 1 in Vietnamese with a roadmap recap and a first-principles explanation of Dart, JIT, AOT, and Hot Reload
+- Synced the lesson checkpoint in `memory-bank/learning-status.md`
+- Added milestone-based validation gates so progress only increases after an explicit pass decision
+- Re-opened Lesson 1 at the user's request and re-assigned the homework checkpoint: explain Dart vs Flutter fit, explain Hot Reload preservation, and observe a counter demo after Hot Reload
 
 ## Recommended Next Steps
 - Review the user's Lesson 1 answers and homework, then continue to Dart variables and null safety
@@ -29,3 +33,4 @@
 - The current app source likely needs cleanup before being used as a lesson foundation
 - Learning progress should be updated in `memory-bank/learning-status.md` after each meaningful teaching checkpoint
 - Keep the lesson flow micro-sized and interactive; wait for the user's homework before moving to the next core topic
+- Progress must stay unchanged until the current milestone is validated against `mastery-checkpoints.md`
