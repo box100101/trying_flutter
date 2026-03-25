@@ -1,0 +1,30 @@
+# Active Context
+
+## Snapshot Date
+- 2026-03-25
+
+## Current Focus
+- Start Flutter tutoring in Vietnamese with Lesson 1 and preserve the user's learning progress in the memory bank
+
+## Assumptions
+- "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
+- The user wants the memory bank to work alongside `AGENTS.md`, not replace it
+
+## What Changed In This Session
+- Reviewed the repository structure
+- Confirmed the repo is a minimal Flutter starter
+- Created the `memory-bank/` structure and seeded it with initial project context
+- Added a dedicated `learning-status.md` file to track learning phase, progress percent, completed phases, and current in-progress topic
+- Began Lesson 1 on why Flutter uses Dart and how Hot Reload works
+- Assigned the first beginner homework checkpoint for Lesson 1
+
+## Recommended Next Steps
+- Review the user's Lesson 1 answers and homework, then continue to Dart variables and null safety
+- If the goal is product building: fix `lib/main.dart`, define a real app direction, and introduce a small architecture baseline
+- If the goal is app-side persistence: add a separate feature for local storage inside `lib/`
+
+## Watchouts
+- `AGENTS.md` defines a teaching-first role, so future work should preserve that tone
+- The current app source likely needs cleanup before being used as a lesson foundation
+- Learning progress should be updated in `memory-bank/learning-status.md` after each meaningful teaching checkpoint
+- Keep the lesson flow micro-sized and interactive; wait for the user's homework before moving to the next core topic
