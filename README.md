@@ -1,17 +1,20 @@
 # trying_flutter
 
-A new Flutter project.
+Đây là repo học Flutter cá nhân, dùng để học theo lộ trình từ cơ bản đến nâng cao với hình thức mentoring 1-1 bằng tiếng Việt.
 
-## Getting Started
+## Mục đích của repo
 
-This project is a starting point for a Flutter application.
+- Học Flutter từ gốc, bắt đầu với Dart rồi tiến dần đến UI, state management, networking và các kỹ năng nâng cao.
+- Dùng như một nơi thực hành an toàn để thử nghiệm code, làm bài tập và xây dựng app từng bước.
+- Lưu lại tiến độ học tập, ngữ cảnh hiện tại và các quyết định quan trọng để có thể tiếp tục học liền mạch qua nhiều buổi.
+- Rèn tư duy clean code, tổ chức thư mục rõ ràng và các nguyên tắc phát triển phần mềm chuyên nghiệp ngay từ đầu.
 
-A few resources to get you started if this is your first Flutter project:
+## Vai trò của các phần chính
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- `lib/`: nơi viết mã nguồn Flutter và thực hành các bài học.
+- `memory-bank/`: nơi lưu tiến độ học, ngữ cảnh làm việc và các ghi chú quan trọng để các buổi sau có thể tiếp nối nhanh.
+- `AGENTS.md`: định nghĩa cách trợ lý hoạt động như một mentor Flutter và cách theo dõi hành trình học tập.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Định hướng
+
+Repo này không chỉ là một project Flutter mẫu, mà là một không gian học tập dài hạn để chuyển từ người mới bắt đầu thành Flutter Engineer có nền tảng tốt.

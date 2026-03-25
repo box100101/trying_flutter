@@ -5,3 +5,4 @@
 - Seeded project purpose, roadmap, technical observations, durable decisions, and active context.
 - Prepared the repo for future sessions to resume faster with less repeated explanation.
 - Added a dedicated learning progress snapshot file and instructions to keep it updated after lessons and homework checkpoints.
+- Localized `README.md` and rewrote it to describe the repo as a Vietnamese Flutter learning workspace instead of a default scaffold.

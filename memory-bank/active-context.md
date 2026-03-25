@@ -17,6 +17,7 @@
 - Added a dedicated `learning-status.md` file to track learning phase, progress percent, completed phases, and current in-progress topic
 - Began Lesson 1 on why Flutter uses Dart and how Hot Reload works
 - Assigned the first beginner homework checkpoint for Lesson 1
+- Replaced the default Flutter `README.md` content with a Vietnamese description of the repo's learning purpose
 
 ## Recommended Next Steps
 - Review the user's Lesson 1 answers and homework, then continue to Dart variables and null safety
