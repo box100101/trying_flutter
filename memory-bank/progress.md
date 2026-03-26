@@ -25,3 +25,7 @@
 - Confirmed the learner can explain nullable vs non-nullable types, use null-aware operators appropriately, and fix the null-safety exercise acceptably.
 - Advanced Phase 1 progress to 60% confirmed.
 - Started Lesson 5 on async and await and assigned the next homework checkpoint.
+- Passed Phase 1 / Milestone 5: Async and Await.
+- Confirmed the learner can explain asynchronous flow, distinguish `Future`, `async`, and `await`, and implement the assigned delayed-result exercise correctly.
+- Advanced Phase 1 progress to 80% confirmed.
+- Started Lesson 6 on advanced OOP and assigned the next homework checkpoint.

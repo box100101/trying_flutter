@@ -4,7 +4,7 @@
 - 2026-03-26
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Lesson 5 and preserve the user's learning progress in the memory bank
+- Continue Flutter tutoring in Vietnamese with Lesson 6 and preserve the user's learning progress in the memory bank
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
@@ -35,9 +35,13 @@
 - Reviewed the user's Lesson 4 answers on 2026-03-26 and marked Milestone 4 as passed
 - Advanced Phase 1 progress to 60% confirmed and started Lesson 5 on async and await
 - Assigned the Lesson 5 checkpoint on asynchronous flow, `Future`, `async`, and `await`
+- Reviewed the user's first Lesson 5 submission on 2026-03-26 and kept Milestone 5 unresolved because the learner explained the concepts correctly but did not provide the required async code implementation
+- Reviewed the user's corrected Lesson 5 submission on 2026-03-26 and marked Milestone 5 as passed
+- Advanced Phase 1 progress to 80% confirmed and started Lesson 6 on advanced OOP
+- Assigned the Lesson 6 checkpoint on classes, constructors, inheritance, abstraction, and composition
 
 ## Recommended Next Steps
-- Review the user's Lesson 5 answers and async exercise, then re-evaluate Milestone 5
+- Review the user's Lesson 6 answers and OOP modeling exercise, then re-evaluate Milestone 6 and complete Phase 1
 - If the goal is product building: fix `lib/main.dart`, define a real app direction, and introduce a small architecture baseline
 - If the goal is app-side persistence: add a separate feature for local storage inside `lib/`
 
