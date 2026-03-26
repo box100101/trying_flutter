@@ -33,3 +33,7 @@
 - Confirmed the learner can explain core OOP concepts and model a small hierarchy with abstraction, inheritance, constructors, and composition using clean naming.
 - Advanced Phase 1 progress to 100% confirmed and completed Phase 1: Dart Mastery.
 - Started Phase 2 / Lesson 7 on widget tree fundamentals and assigned the next homework checkpoint.
+- Passed Phase 2 / Milestone 1: Widget tree fundamentals.
+- Confirmed the learner can explain widgets, distinguish `StatelessWidget` from `StatefulWidget`, read a simple widget tree, and describe basic rebuild behavior.
+- Advanced Phase 2 progress to 20% confirmed.
+- Started Phase 2 / Lesson 8 on the layout system and assigned the next homework checkpoint.
