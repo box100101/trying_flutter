@@ -7,33 +7,33 @@
 - Phase 1: Dart Mastery
 
 ## Current Phase Progress
-- 10% confirmed
+- 25% confirmed
 
 ## Completed Phases
 - None yet
 
 ## Current Validation Gate
-- Phase 1 / Milestone 2: Variables and types
+- Phase 1 / Milestone 3: Functions
 
 ## Validation Status
-- Milestone 1 passed on 2026-03-26; Milestone 2 is now in progress
+- Milestone 1 passed on 2026-03-26; Milestone 2 passed on 2026-03-26; Milestone 3 is now in progress
 
 ## Current Lesson
-- Lesson 2: Variables, data types, `var`, explicit types, `final`, and `const`
+- Lesson 3: Functions, parameters, return values, and basic function design
 
 ## Current In-Progress Topic
-- Distinguishing how Dart stores values, when type inference is helpful, and when immutability should use `final` or `const`
+- Understanding functions as reusable units of logic that take input, optionally process data, and return output clearly
 
 ## Evidence Required To Pass Current Gate
-- The learner distinguishes `var`, explicit types, `final`, and `const`
-- The learner declares variables without common type mistakes
-- The learner completes the assigned variable exercise correctly
+- The learner understands parameters, return values, and basic function design
+- The learner can write and call small functions correctly
+- The learner completes the assigned function exercise
 
 ## Homework Status
-- Lesson 1 homework reviewed and passed on 2026-03-26. Lesson 2 homework assigned: classify `var`, explicit types, `final`, and `const`, then fix a few small variable declarations
+- Lesson 1 homework reviewed and passed on 2026-03-26. Lesson 2 homework reviewed and passed on 2026-03-26. Lesson 3 homework assigned: explain parameter vs argument vs return value, then write and call a few small Dart functions
 
 ## Next Recommended Step
-- Review the user's Lesson 2 answers and variable exercise, then validate Milestone 2 before continuing to functions and null safety foundations
+- Review the user's Lesson 3 answers and function exercise, then validate Milestone 3 before continuing to null safety foundations
 
 ## Progress Rule
 - Phase progress only increases after the current milestone is explicitly passed against `mastery-checkpoints.md`

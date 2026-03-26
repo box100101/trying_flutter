@@ -4,7 +4,7 @@
 - 2026-03-26
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Lesson 2 and preserve the user's learning progress in the memory bank
+- Continue Flutter tutoring in Vietnamese with Lesson 3 and preserve the user's learning progress in the memory bank
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
@@ -25,9 +25,13 @@
 - Reviewed the user's Lesson 1 answers on 2026-03-26 and marked Milestone 1 as passed
 - Advanced Phase 1 progress to 10% confirmed and started Lesson 2 on variables and types
 - Assigned the Lesson 2 checkpoint on `var`, explicit types, `final`, and `const`
+- Reviewed the user's first Lesson 2 submission on 2026-03-26 and kept Milestone 2 unresolved because the code fix still contains two type/const errors
+- Reviewed the user's corrected Lesson 2 submission on 2026-03-26 and marked Milestone 2 as passed
+- Advanced Phase 1 progress to 25% confirmed and started Lesson 3 on functions
+- Assigned the Lesson 3 checkpoint on parameters, arguments, return values, and small reusable functions
 
 ## Recommended Next Steps
-- Review the user's Lesson 2 answers and exercise, then continue to functions and null safety
+- Review the user's Lesson 3 answers and function exercise, then re-evaluate Milestone 3
 - If the goal is product building: fix `lib/main.dart`, define a real app direction, and introduce a small architecture baseline
 - If the goal is app-side persistence: add a separate feature for local storage inside `lib/`
 
