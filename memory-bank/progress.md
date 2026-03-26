@@ -37,3 +37,7 @@
 - Confirmed the learner can explain widgets, distinguish `StatelessWidget` from `StatefulWidget`, read a simple widget tree, and describe basic rebuild behavior.
 - Advanced Phase 2 progress to 20% confirmed.
 - Started Phase 2 / Lesson 8 on the layout system and assigned the next homework checkpoint.
+- Passed Phase 2 / Milestone 2: Layout system.
+- Confirmed the learner can explain `Row`, `Column`, and `Expanded`, reason about overflow using width constraints, and fix the assigned overflowing layout.
+- Advanced Phase 2 progress to 45% confirmed.
+- Started Phase 2 / Lesson 9 on Material vs Cupertino and assigned the next homework checkpoint.

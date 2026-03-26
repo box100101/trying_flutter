@@ -4,7 +4,7 @@
 - 2026-03-26
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 8 and preserve the user's learning progress in the memory bank
+- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 9 and preserve the user's learning progress in the memory bank
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
@@ -47,9 +47,13 @@
 - Reviewed the user's corrected Lesson 7 submission on 2026-03-26 and marked Phase 2 / Milestone 1 as passed
 - Advanced Phase 2 progress to 20% confirmed and started Lesson 8 on the layout system
 - Assigned the Lesson 8 checkpoint on constraints, overflow, `Row`, `Column`, `Expanded`, and `Flexible`
+- Reviewed the user's first Lesson 8 submission on 2026-03-26 and kept Phase 2 / Milestone 2 unresolved because the overflow explanation did not yet describe Flutter's width constraints accurately
+- Reviewed the user's corrected Lesson 8 explanation on 2026-03-26 and marked Phase 2 / Milestone 2 as passed
+- Advanced Phase 2 progress to 45% confirmed and started Lesson 9 on Material vs Cupertino
+- Assigned the Lesson 9 checkpoint on platform expectations and choosing suitable widgets
 
 ## Recommended Next Steps
-- Review the user's Lesson 8 answers and layout exercise, then re-evaluate Phase 2 / Milestone 2
+- Review the user's Lesson 9 answers and platform-widget choices, then re-evaluate Phase 2 / Milestone 3
 - If the goal is product building: fix `lib/main.dart`, define a real app direction, and introduce a small architecture baseline
 - If the goal is app-side persistence: add a separate feature for local storage inside `lib/`
 
