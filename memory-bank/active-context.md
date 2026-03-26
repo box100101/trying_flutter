@@ -4,7 +4,7 @@
 - 2026-03-26
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Lesson 6 and preserve the user's learning progress in the memory bank
+- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 7 and preserve the user's learning progress in the memory bank
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
@@ -39,9 +39,13 @@
 - Reviewed the user's corrected Lesson 5 submission on 2026-03-26 and marked Milestone 5 as passed
 - Advanced Phase 1 progress to 80% confirmed and started Lesson 6 on advanced OOP
 - Assigned the Lesson 6 checkpoint on classes, constructors, inheritance, abstraction, and composition
+- Reviewed the user's Lesson 6 answers on 2026-03-26 and marked Milestone 6 as passed
+- Completed Phase 1: Dart Mastery on 2026-03-26
+- Started Phase 2 / Lesson 7 on widget tree fundamentals, `StatelessWidget`, and `StatefulWidget`
+- Assigned the Lesson 7 checkpoint on reading a small widget tree and explaining rebuild behavior
 
 ## Recommended Next Steps
-- Review the user's Lesson 6 answers and OOP modeling exercise, then re-evaluate Milestone 6 and complete Phase 1
+- Review the user's Lesson 7 answers and widget-tree exercise, then re-evaluate Phase 2 / Milestone 1
 - If the goal is product building: fix `lib/main.dart`, define a real app direction, and introduce a small architecture baseline
 - If the goal is app-side persistence: add a separate feature for local storage inside `lib/`
 

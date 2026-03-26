@@ -29,3 +29,7 @@
 - Confirmed the learner can explain asynchronous flow, distinguish `Future`, `async`, and `await`, and implement the assigned delayed-result exercise correctly.
 - Advanced Phase 1 progress to 80% confirmed.
 - Started Lesson 6 on advanced OOP and assigned the next homework checkpoint.
+- Passed Phase 1 / Milestone 6: Advanced OOP.
+- Confirmed the learner can explain core OOP concepts and model a small hierarchy with abstraction, inheritance, constructors, and composition using clean naming.
+- Advanced Phase 1 progress to 100% confirmed and completed Phase 1: Dart Mastery.
+- Started Phase 2 / Lesson 7 on widget tree fundamentals and assigned the next homework checkpoint.
