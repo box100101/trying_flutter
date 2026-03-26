@@ -21,3 +21,7 @@
 - Confirmed the learner can distinguish parameter, argument, and return value, and can write and call small functions correctly.
 - Advanced Phase 1 progress to 40% confirmed.
 - Started Lesson 4 on null safety and assigned the next homework checkpoint.
+- Passed Phase 1 / Milestone 4: Null safety.
+- Confirmed the learner can explain nullable vs non-nullable types, use null-aware operators appropriately, and fix the null-safety exercise acceptably.
+- Advanced Phase 1 progress to 60% confirmed.
+- Started Lesson 5 on async and await and assigned the next homework checkpoint.
