@@ -41,3 +41,7 @@
 - Confirmed the learner can explain `Row`, `Column`, and `Expanded`, reason about overflow using width constraints, and fix the assigned overflowing layout.
 - Advanced Phase 2 progress to 45% confirmed.
 - Started Phase 2 / Lesson 9 on Material vs Cupertino and assigned the next homework checkpoint.
+- Passed Phase 2 / Milestone 3: Material vs Cupertino.
+- Confirmed the learner can explain the tradeoff between the two design systems and choose appropriate platform-aligned widgets for common scenarios.
+- Advanced Phase 2 progress to 60% confirmed.
+- Started Phase 2 / Lesson 10 on assets and theming and assigned the next homework checkpoint.
