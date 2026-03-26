@@ -7,33 +7,33 @@
 - Phase 1: Dart Mastery
 
 ## Current Phase Progress
-- 25% confirmed
+- 40% confirmed
 
 ## Completed Phases
 - None yet
 
 ## Current Validation Gate
-- Phase 1 / Milestone 3: Functions
+- Phase 1 / Milestone 4: Null safety
 
 ## Validation Status
-- Milestone 1 passed on 2026-03-26; Milestone 2 passed on 2026-03-26; Milestone 3 is now in progress
+- Milestone 1 passed on 2026-03-26; Milestone 2 passed on 2026-03-26; Milestone 3 passed on 2026-03-26; Milestone 4 is now in progress
 
 ## Current Lesson
-- Lesson 3: Functions, parameters, return values, and basic function design
+- Lesson 4: Null safety, nullable types, and null-aware operators
 
 ## Current In-Progress Topic
-- Understanding functions as reusable units of logic that take input, optionally process data, and return output clearly
+- Understanding the difference between nullable and non-nullable types, and when to use `?`, `!`, `??`, and `?.` safely
 
 ## Evidence Required To Pass Current Gate
-- The learner understands parameters, return values, and basic function design
-- The learner can write and call small functions correctly
-- The learner completes the assigned function exercise
+- The learner explains nullable vs non-nullable types
+- The learner uses `?`, `!`, and null-aware operators appropriately
+- The learner fixes a null-safety exercise without unsafe guessing
 
 ## Homework Status
-- Lesson 1 homework reviewed and passed on 2026-03-26. Lesson 2 homework reviewed and passed on 2026-03-26. Lesson 3 homework assigned: explain parameter vs argument vs return value, then write and call a few small Dart functions
+- Lesson 1 homework reviewed and passed on 2026-03-26. Lesson 2 homework reviewed and passed on 2026-03-26. Lesson 3 homework reviewed and passed on 2026-03-26. Lesson 4 homework assigned: explain nullable vs non-nullable and fix a few small null-safety examples
 
 ## Next Recommended Step
-- Review the user's Lesson 3 answers and function exercise, then validate Milestone 3 before continuing to null safety foundations
+- Review the user's Lesson 4 answers and null-safety exercise, then validate Milestone 4 before continuing to async and await
 
 ## Progress Rule
 - Phase progress only increases after the current milestone is explicitly passed against `mastery-checkpoints.md`

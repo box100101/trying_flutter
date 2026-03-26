@@ -17,3 +17,7 @@
 - Confirmed the learner can distinguish `var`, explicit types, `final`, and `const`, and can fix the assigned variable exercise correctly after feedback.
 - Advanced Phase 1 progress to 25% confirmed.
 - Started Lesson 3 on functions and assigned the next homework checkpoint.
+- Passed Phase 1 / Milestone 3: Functions.
+- Confirmed the learner can distinguish parameter, argument, and return value, and can write and call small functions correctly.
+- Advanced Phase 1 progress to 40% confirmed.
+- Started Lesson 4 on null safety and assigned the next homework checkpoint.
