@@ -1,7 +1,7 @@
 # Learning Status
 
 ## Last Updated
-- 2026-03-26
+- 2026-03-27
 
 ## Current Phase
 - Phase 2: Flutter UI Core
@@ -32,8 +32,12 @@
 ## Homework Status
 - Lesson 1 homework reviewed and passed on 2026-03-26. Lesson 2 homework reviewed and passed on 2026-03-26. Lesson 3 homework reviewed and passed on 2026-03-26. Lesson 4 homework reviewed and passed on 2026-03-26. Lesson 5 homework reviewed and passed on 2026-03-26. Lesson 6 homework reviewed and passed on 2026-03-26. Lesson 7 homework reviewed and passed on 2026-03-26. Lesson 8 homework reviewed and passed on 2026-03-26. Lesson 9 homework reviewed and passed on 2026-03-26. Lesson 10 homework assigned: explain how to register assets, use an icon and theme color, and complete a small theming exercise
 
+## Saved Tutoring Preference
+- Saved on 2026-03-27: end each lesson by restating the current questions and homework, even if follow-up lesson questions were answered earlier in the same response
+
 ## Next Recommended Step
 - Review the user's Lesson 10 answers and theming exercise, then validate Phase 2 / Milestone 4 before continuing to the small UI screen milestone
+- When responding to Lesson 10 next, end with a clear recap of the active homework and any open lesson questions
 
 ## Progress Rule
 - Phase progress only increases after the current milestone is explicitly passed against `mastery-checkpoints.md`

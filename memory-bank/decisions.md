@@ -7,3 +7,7 @@
 - Treat `active-context.md` as the first file to refresh before starting meaningful work.
 - Track learning progress in a dedicated `learning-status.md` file so phase, percent complete, completed phases, and current in-progress topic stay explicit.
 - Gate learning progress by milestone validation so percentages only move after an explicit pass decision.
+
+## 2026-03-27
+- End each lesson by explicitly restating the active questions and homework assignment.
+- Keep that recap even when the user asks follow-up questions about the lesson before the lesson response ends.

@@ -1,10 +1,10 @@
 # Active Context
 
 ## Snapshot Date
-- 2026-03-26
+- 2026-03-27
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 10 and preserve the user's learning progress in the memory bank
+- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 10, preserve the user's learning progress in the memory bank, and consistently restate end-of-lesson questions and homework
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
@@ -54,9 +54,11 @@
 - Reviewed the user's Lesson 9 answers on 2026-03-26 and marked Phase 2 / Milestone 3 as passed
 - Advanced Phase 2 progress to 60% confirmed and started Lesson 10 on assets and theming
 - Assigned the Lesson 10 checkpoint on registering assets and using theme values consistently
+- Saved a tutoring-style preference on 2026-03-27: always restate the current lesson questions and homework at the end of the lesson, even after answering follow-up questions during the lesson
 
 ## Recommended Next Steps
 - Review the user's Lesson 10 answers and theming exercise, then re-evaluate Phase 2 / Milestone 4
+- When closing the next lesson response, explicitly recap any active lesson questions and homework before waiting for the user's submission
 - If the goal is product building: fix `lib/main.dart`, define a real app direction, and introduce a small architecture baseline
 - If the goal is app-side persistence: add a separate feature for local storage inside `lib/`
 
@@ -66,3 +68,4 @@
 - Learning progress should be updated in `memory-bank/learning-status.md` after each meaningful teaching checkpoint
 - Keep the lesson flow micro-sized and interactive; wait for the user's homework before moving to the next core topic
 - Progress must stay unchanged until the current milestone is validated against `mastery-checkpoints.md`
+- End every lesson by restating the active questions and homework, even if the user asked intermediate questions about the lesson content
