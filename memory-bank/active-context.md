@@ -4,7 +4,7 @@
 - 2026-03-27
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 10, preserve the user's learning progress in the memory bank, and consistently restate end-of-lesson questions and homework
+- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 10, preserve the user's current 60% confirmed progress, and anchor future lessons to the Android-first Firebase chat app while consistently restating end-of-lesson questions and homework
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
@@ -55,12 +55,16 @@
 - Advanced Phase 2 progress to 60% confirmed and started Lesson 10 on assets and theming
 - Assigned the Lesson 10 checkpoint on registering assets and using theme values consistently
 - Saved a tutoring-style preference on 2026-03-27: always restate the current lesson questions and homework at the end of the lesson, even after answering follow-up questions during the lesson
+- Added a product-based course direction on 2026-03-27: build an Android-first realtime chat app with Firebase alongside the lessons
+- Defined the initial MVP scope on 2026-03-27: auth, profile CRUD, avatar upload, friend search, 1:1 realtime chat, and push notifications
+- Kept learning progress unchanged at Phase 2 / 60% confirmed while adding the new project track
+- Updated `AGENTS.md`, roadmap, checkpoints, and memory-bank notes to keep future lessons aligned to the course project
 
 ## Recommended Next Steps
 - Review the user's Lesson 10 answers and theming exercise, then re-evaluate Phase 2 / Milestone 4
 - When closing the next lesson response, explicitly recap any active lesson questions and homework before waiting for the user's submission
-- If the goal is product building: fix `lib/main.dart`, define a real app direction, and introduce a small architecture baseline
-- If the goal is app-side persistence: add a separate feature for local storage inside `lib/`
+- Use Phase 2 / Milestone 5 to build the first product-aligned screen for the chat app once Lesson 10 passes
+- Define the Firebase data model and Android-only setup plan before Phase 4 begins
 
 ## Watchouts
 - `AGENTS.md` defines a teaching-first role, so future work should preserve that tone
@@ -69,3 +73,6 @@
 - Keep the lesson flow micro-sized and interactive; wait for the user's homework before moving to the next core topic
 - Progress must stay unchanged until the current milestone is validated against `mastery-checkpoints.md`
 - End every lesson by restating the active questions and homework, even if the user asked intermediate questions about the lesson content
+- Do not reset the current phase progress just because the course project direction became clearer
+- Keep the scope Android-only for now
+- Treat the product as 1:1 chat first; group chat, calls, and iOS can come later

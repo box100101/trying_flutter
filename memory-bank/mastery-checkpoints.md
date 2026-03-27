@@ -97,12 +97,12 @@ This file defines the milestones that gate learning progress. Progress can only 
   - the learner completes a small styling or asset exercise
 
 ### Milestone 5
-- Name: Build a small UI screen
+- Name: Build a small product screen
 - Weight: 20%
 - Pass when:
-  - the learner combines the previous UI concepts into a coherent screen
+  - the learner combines the previous UI concepts into a coherent auth, profile, chat list, or chat room screen
   - the result is understandable and mostly correct
-  - the learner can explain the structure they built
+  - the learner can explain the structure and styling choices they built
 
 ## Phase 3: State Management
 
@@ -110,7 +110,7 @@ This file defines the milestones that gate learning progress. Progress can only 
 - Name: State fundamentals
 - Weight: 20%
 - Pass when:
-  - the learner can distinguish local UI state from app state
+  - the learner can distinguish local UI state from app state in auth, profile, search, or chat flows
   - the learner understands why state management is needed
 
 ### Milestone 2
@@ -118,20 +118,20 @@ This file defines the milestones that gate learning progress. Progress can only 
 - Weight: 20%
 - Pass when:
   - the learner can explain events, states, and flow through a BLoC
-  - the learner can map a simple feature into this model
+  - the learner can map an auth, profile, search, or chat feature into this model
 
 ### Milestone 3
 - Name: BLoC implementation
 - Weight: 20%
 - Pass when:
-  - the learner can create a small BLoC or Cubit-based flow
+  - the learner can create a small BLoC or Cubit-based flow for an app feature such as auth, profile, or chat
   - the learner handles basic state transitions correctly
 
 ### Milestone 4
 - Name: UI integration
 - Weight: 20%
 - Pass when:
-  - the learner can wire UI to BLoC using the right builders/listeners
+  - the learner can wire UI to BLoC using the right builders/listeners in a product screen
   - the learner avoids common rebuild or event mistakes
 
 ### Milestone 5
@@ -141,76 +141,76 @@ This file defines the milestones that gate learning progress. Progress can only 
   - the learner can write or reason about basic tests for state transitions
   - the learner can improve naming and structure after feedback
 
-## Phase 4: Data and Networking
+## Phase 4: Firebase and Realtime Data
 
 ### Milestone 1
-- Name: REST API fundamentals
+- Name: Firebase project and Auth setup
 - Weight: 20%
 - Pass when:
-  - the learner understands requests, responses, status codes, and async fetching
-  - the learner can consume a simple endpoint with guidance
+  - the learner understands the Android-side Firebase setup and basic authentication flow
+  - the learner can connect a simple sign up or sign in flow with guidance
 
 ### Milestone 2
-- Name: JSON parsing and models
+- Name: Firestore models and serialization
 - Weight: 20%
 - Pass when:
-  - the learner can map JSON into Dart models
-  - the learner can explain why typed models matter
+  - the learner can map Firestore documents into Dart models
+  - the learner can explain why typed models and stable IDs matter
 
 ### Milestone 3
-- Name: Data layer structure
+- Name: Realtime repositories and data layer
 - Weight: 20%
 - Pass when:
-  - the learner can separate API code, models, and repositories clearly
-  - the learner applies the structure in a small exercise
+  - the learner can separate Firebase services, models, and repositories clearly
+  - the learner applies the structure in a small chat or profile exercise
 
 ### Milestone 4
-- Name: Local storage and SQFlite
+- Name: Storage and profile media
 - Weight: 20%
 - Pass when:
-  - the learner can persist simple data locally
-  - the learner understands when to choose lightweight storage vs database
+  - the learner can upload or manage simple avatar media correctly
+  - the learner understands when to use Firebase Storage, Firestore, or local cache
 
 ### Milestone 5
-- Name: Error, loading, and offline flow
+- Name: Error, offline, and notification flow
 - Weight: 20%
 - Pass when:
   - the learner handles loading and error states correctly
-  - the learner can explain a basic offline or cache-aware flow
+  - the learner can explain a basic offline or cache-aware flow and the new-message notification path
 
-## Phase 5: Pro Level
+## Phase 5: Production Readiness
 
 ### Milestone 1
-- Name: Custom painter fundamentals
-- Weight: 20%
-- Pass when:
-  - the learner can explain when `CustomPainter` is appropriate
-  - the learner builds or adjusts a simple painter example
-
-### Milestone 2
-- Name: Animations
+- Name: UX polish and animations
 - Weight: 20%
 - Pass when:
   - the learner understands implicit vs explicit animations
-  - the learner completes a small animation task correctly
+  - the learner completes a small polish or animation task correctly
 
-### Milestone 3
+### Milestone 2
 - Name: Clean architecture
 - Weight: 20%
 - Pass when:
   - the learner can separate presentation, domain, and data concerns
   - the learner applies that separation in a guided example
 
+### Milestone 3
+- Name: Security rules and app hardening
+- Weight: 20%
+- Pass when:
+  - the learner understands the purpose of Firebase security rules and other production safeguards
+  - the learner can explain or adjust a basic rule set for auth or chat data
+
 ### Milestone 4
-- Name: CI and CD basics
+- Name: Android CI/CD basics
 - Weight: 20%
 - Pass when:
   - the learner understands the purpose of automated checks and delivery pipelines
-  - the learner can describe a reasonable mobile CI/CD flow
+  - the learner can describe a reasonable Android CI/CD flow with Fastlane and Firebase App Distribution
 
 ### Milestone 5
-- Name: Deployment readiness
+- Name: Android release readiness
 - Weight: 20%
 - Pass when:
-  - the learner understands release basics for stores
-  - the learner can explain the checklist for shipping a build
+  - the learner understands signing, release basics, and tester distribution for Android builds
+  - the learner can explain the checklist for shipping a build through Firebase App Distribution

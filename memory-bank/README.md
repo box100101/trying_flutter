@@ -7,13 +7,15 @@ This folder stores durable project context so future sessions can recover state 
 2. `learning-status.md`
 3. `mastery-checkpoints.md`
 4. `project-brief.md`
-5. `learning-roadmap.md`
-6. `technical-context.md`
-7. `decisions.md`
-8. `progress.md`
+5. `course-project.md`
+6. `learning-roadmap.md`
+7. `technical-context.md`
+8. `decisions.md`
+9. `progress.md`
 
 ## File Guide
 - `project-brief.md`: High-level purpose, audience, and success criteria.
+- `course-project.md`: Product scope, platform scope, feature order, and release target for the course app.
 - `learning-status.md`: Structured snapshot of the learner's current phase, percent complete, completed phases, and current in-progress topic.
 - `mastery-checkpoints.md`: Validation gates, milestone weights, and pass criteria for each phase.
 - `learning-roadmap.md`: Flutter tutoring roadmap, current phase, and lesson status.
@@ -26,6 +28,7 @@ This folder stores durable project context so future sessions can recover state 
 - Keep entries short and factual.
 - Update `active-context.md` after meaningful work.
 - Update `learning-status.md` after each lesson, homework review, or explicit progress-save request.
+- Update `course-project.md` when product scope, platform scope, or release goals change materially.
 - Do not increase progress in `learning-status.md` unless the current milestone has been explicitly validated against `mastery-checkpoints.md`.
 - Update `progress.md` when a milestone is completed.
 - Add an item to `decisions.md` only for choices that should guide later work.

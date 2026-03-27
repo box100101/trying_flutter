@@ -45,3 +45,8 @@
 - Confirmed the learner can explain the tradeoff between the two design systems and choose appropriate platform-aligned widgets for common scenarios.
 - Advanced Phase 2 progress to 60% confirmed.
 - Started Phase 2 / Lesson 10 on assets and theming and assigned the next homework checkpoint.
+
+## 2026-03-27
+- Added an Android-first Firebase realtime chat app as the course product anchor without resetting the learner's current Phase 2 progress.
+- Locked the initial MVP to auth, profile CRUD, avatar upload, user search, 1:1 chat, and push notifications.
+- Updated the roadmap and later-phase checkpoints so the course ends with Fastlane and Firebase App Distribution for Android instead of iOS-oriented delivery.

@@ -6,6 +6,7 @@
 
 - Học Flutter từ gốc, bắt đầu với Dart rồi tiến dần đến UI, state management, networking và các kỹ năng nâng cao.
 - Dùng như một nơi thực hành an toàn để thử nghiệm code, làm bài tập và xây dựng app từng bước.
+- Kết thúc khóa học bằng một app nhắn tin realtime Android-first dùng Firebase, được phát triển dần theo từng phase.
 - Lưu lại tiến độ học tập, ngữ cảnh hiện tại và các quyết định quan trọng để có thể tiếp tục học liền mạch qua nhiều buổi.
 - Rèn tư duy clean code, tổ chức thư mục rõ ràng và các nguyên tắc phát triển phần mềm chuyên nghiệp ngay từ đầu.
 
@@ -17,4 +18,4 @@
 
 ## Định hướng
 
-Repo này không chỉ là một project Flutter mẫu, mà là một không gian học tập dài hạn để chuyển từ người mới bắt đầu thành Flutter Engineer có nền tảng tốt.
+Repo này không chỉ là một project Flutter mẫu, mà là một không gian học tập dài hạn để chuyển từ người mới bắt đầu thành Flutter Engineer có nền tảng tốt, đồng thời hoàn thiện một sản phẩm chat realtime Android-first có thể phân phối bằng Firebase App Distribution.

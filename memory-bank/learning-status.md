@@ -35,8 +35,14 @@
 ## Saved Tutoring Preference
 - Saved on 2026-03-27: end each lesson by restating the current questions and homework, even if follow-up lesson questions were answered earlier in the same response
 
+## Saved Project Direction
+- Saved on 2026-03-27: the course now uses an Android-first Firebase realtime chat app as the practical project track
+- Scope: auth, profile CRUD, avatar upload, user search, 1:1 chat, push notifications, and Android CI/CD with Fastlane plus Firebase App Distribution
+- Constraint: keep the current learning progress unchanged; Phase 2 remains `60% confirmed` and Phase 2 / Milestone 4 stays in progress
+
 ## Next Recommended Step
 - Review the user's Lesson 10 answers and theming exercise, then validate Phase 2 / Milestone 4 before continuing to the small UI screen milestone
+- After Lesson 10 passes, use Phase 2 / Milestone 5 to build the first product-aligned screen for the chat app
 - When responding to Lesson 10 next, end with a clear recap of the active homework and any open lesson questions
 
 ## Progress Rule

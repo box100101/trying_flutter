@@ -11,3 +11,8 @@
 ## 2026-03-27
 - End each lesson by explicitly restating the active questions and homework assignment.
 - Keep that recap even when the user asks follow-up questions about the lesson before the lesson response ends.
+- Keep the learner's current progress unchanged while adding the new course project direction.
+- Anchor the course to an Android-first realtime chat app built with Firebase.
+- Keep the initial MVP to 1:1 chat, auth, profile CRUD, avatar upload, user search, and notifications.
+- Keep iOS, group chat, and calls out of scope until the Android flow is stable.
+- Finish the course with Android CI/CD via Fastlane and Firebase App Distribution.
