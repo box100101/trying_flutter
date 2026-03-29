@@ -1,16 +1,20 @@
 # Active Context
 
 ## Snapshot Date
-- 2026-03-27
+- 2026-03-29
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 10, preserve the user's current 60% confirmed progress, and anchor future lessons to the Android-first Firebase chat app while consistently restating end-of-lesson questions and homework
+- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 11, preserve the user's current 80% confirmed progress, and anchor future lessons to the Android-first Firebase chat app while consistently restating end-of-lesson questions and homework
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
 - The user wants the memory bank to work alongside `AGENTS.md`, not replace it
 
 ## What Changed In This Session
+- Reviewed the user's Lesson 10 answers on 2026-03-29 and marked Phase 2 / Milestone 4 as passed
+- Advanced Phase 2 progress to 80% confirmed and started Lesson 11 on building a small auth screen for the chat app
+- Resumed Phase 2 / Lesson 10 on 2026-03-27 and kept progress at 60% confirmed while focusing on assets and theming for the Android-first chat app
+- Repaired the starter `lib/main.dart` scaffold on 2026-03-27 and verified it with `dart format` plus `flutter analyze`
 - Reviewed the repository structure
 - Confirmed the repo is a minimal Flutter starter
 - Created the `memory-bank/` structure and seeded it with initial project context
@@ -59,11 +63,14 @@
 - Defined the initial MVP scope on 2026-03-27: auth, profile CRUD, avatar upload, friend search, 1:1 realtime chat, and push notifications
 - Kept learning progress unchanged at Phase 2 / 60% confirmed while adding the new project track
 - Updated `AGENTS.md`, roadmap, checkpoints, and memory-bank notes to keep future lessons aligned to the course project
+- Saved a new tutoring rule on 2026-03-29: every code example should annotate not-yet-learned widgets and abstract code so the learner can follow each piece
+- Saved a new tutoring rule on 2026-03-29: whenever a new widget, API, or concept appears before its dedicated lesson, explain its purpose and effect before using it
 
 ## Recommended Next Steps
-- Review the user's Lesson 10 answers and theming exercise, then re-evaluate Phase 2 / Milestone 4
 - When closing the next lesson response, explicitly recap any active lesson questions and homework before waiting for the user's submission
-- Use Phase 2 / Milestone 5 to build the first product-aligned screen for the chat app once Lesson 10 passes
+- In all future code samples, add concise inline comments for unfamiliar widgets and tricky abstractions
+- When introducing anything outside the learner's covered scope, explain what it does and why it is being used
+- Use Phase 2 / Milestone 5 to build the first product-aligned auth screen for the chat app and review the learner's explanation of its structure
 - Define the Firebase data model and Android-only setup plan before Phase 4 begins
 
 ## Watchouts
@@ -73,6 +80,8 @@
 - Keep the lesson flow micro-sized and interactive; wait for the user's homework before moving to the next core topic
 - Progress must stay unchanged until the current milestone is validated against `mastery-checkpoints.md`
 - End every lesson by restating the active questions and homework, even if the user asked intermediate questions about the lesson content
+- Every code example should include short explanatory comments for widgets or abstractions the learner has not studied yet
+- Do not introduce a new widget, API, or concept silently; explain its job and effect before relying on it
 - Do not reset the current phase progress just because the course project direction became clearer
 - Keep the scope Android-only for now
 - Treat the product as 1:1 chat first; group chat, calls, and iOS can come later

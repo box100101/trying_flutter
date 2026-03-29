@@ -16,3 +16,7 @@
 - Keep the initial MVP to 1:1 chat, auth, profile CRUD, avatar upload, user search, and notifications.
 - Keep iOS, group chat, and calls out of scope until the Android flow is stable.
 - Finish the course with Android CI/CD via Fastlane and Firebase App Distribution.
+
+## 2026-03-29
+- Annotate every teaching code sample with short comments for unfamiliar widgets and hard-to-read abstractions.
+- When a response must use a concept that has not been formally taught yet, explain its purpose and effect before relying on it.
