@@ -36,6 +36,8 @@
 - Saved on 2026-03-27: end each lesson by restating the current questions and homework, even if follow-up lesson questions were answered earlier in the same response
 - Saved on 2026-03-29: every code example or implementation snippet should include short comments for widgets the learner has not learned yet and for abstract or tricky code blocks
 - Saved on 2026-03-29: if a lesson response uses any new widget, API, pattern, or syntax before its dedicated lesson, explain what it does and what effect it has before asking the learner to use it
+- Saved on 2026-03-29: in every lesson, explicitly map each screen, file, or folder example to the planned repo architecture so the learner knows where it belongs
+- Saved on 2026-03-29: regularly connect lessons to the planned feature-first, BLoC/Cubit, model, and repository structure so the learner can visualize each layer's role in the chat app repo
 
 ## Saved Project Direction
 - Saved on 2026-03-27: the course now uses an Android-first Firebase realtime chat app as the practical project track
@@ -47,6 +49,7 @@
 - Review the learner's screen structure, spacing choices, and theme usage before deciding whether Milestone 5 passes
 - End the Lesson 11 response with a clear recap of the active homework and any open lesson questions
 - Apply the new teaching preference in all future code examples by annotating unfamiliar widgets and explaining any newly introduced concepts
+- In each future lesson, call out the intended repo placement for the example being taught and explain whether that placement is temporary for learning simplicity or part of the long-term architecture
 
 ## Progress Rule
 - Phase progress only increases after the current milestone is explicitly passed against `mastery-checkpoints.md`

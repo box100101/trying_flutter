@@ -4,13 +4,18 @@
 - 2026-03-29
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 11, preserve the user's current 80% confirmed progress, and anchor future lessons to the Android-first Firebase chat app while consistently restating end-of-lesson questions and homework
+- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 11, preserve the user's current 80% confirmed progress, anchor future lessons to the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
 - The user wants the memory bank to work alongside `AGENTS.md`, not replace it
 
 ## What Changed In This Session
+- Saved a new architecture decision on 2026-03-29: move the project toward pragmatic Clean Architecture with feature-first `presentation`, `domain`, and `data` slices
+- Saved a new presentation-pattern decision on 2026-03-29: use MVVM-style presentation with `Cubit` or `BLoC` acting like the screen-level ViewModel
+- Saved a new modeling rule on 2026-03-29: keep domain entities, Firebase DTOs, and UI state models separate
+- Saved a new tutoring rule on 2026-03-29: every lesson should explain where the current screen, file, or folder belongs in the repo architecture
+- Saved a new tutoring rule on 2026-03-29: regularly connect lesson examples to the planned feature-first, BLoC/Cubit, model, and repository structure so the learner can picture how the repo will evolve
 - Reviewed the user's Lesson 10 answers on 2026-03-29 and marked Phase 2 / Milestone 4 as passed
 - Advanced Phase 2 progress to 80% confirmed and started Lesson 11 on building a small auth screen for the chat app
 - Resumed Phase 2 / Lesson 10 on 2026-03-27 and kept progress at 60% confirmed while focusing on assets and theming for the Android-first chat app
@@ -72,6 +77,9 @@
 - When introducing anything outside the learner's covered scope, explain what it does and why it is being used
 - Use Phase 2 / Milestone 5 to build the first product-aligned auth screen for the chat app and review the learner's explanation of its structure
 - Define the Firebase data model and Android-only setup plan before Phase 4 begins
+- In each lesson, state the intended repo location for the current example and explain how it fits the planned feature-first architecture
+- Teach upcoming features with separate domain entities, data DTOs, and UI state models so the Clean Architecture direction becomes concrete early
+- Keep explaining that MVVM is the presentation pattern inside the broader Clean Architecture, not a competing whole-project architecture
 
 ## Watchouts
 - `AGENTS.md` defines a teaching-first role, so future work should preserve that tone
@@ -82,6 +90,10 @@
 - End every lesson by restating the active questions and homework, even if the user asked intermediate questions about the lesson content
 - Every code example should include short explanatory comments for widgets or abstractions the learner has not studied yet
 - Do not introduce a new widget, API, or concept silently; explain its job and effect before relying on it
+- Do not present a screen or code sample without also explaining where it belongs in the planned repo structure
+- When the current lesson uses a simplified single-file example, distinguish clearly between the temporary teaching location and the long-term architecture location
+- Do not collapse domain models, Firebase models, and UI state into one catch-all model class
+- Do not mix up the presentation pattern choice (`MVVM` style) with the broader project architecture choice (`Clean Architecture`)
 - Do not reset the current phase progress just because the course project direction became clearer
 - Keep the scope Android-only for now
 - Treat the product as 1:1 chat first; group chat, calls, and iOS can come later

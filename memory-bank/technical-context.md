@@ -17,6 +17,8 @@
   - Firebase Cloud Messaging
 - Planned architecture direction:
   - feature-first folders
+  - pragmatic Clean Architecture with `presentation`, `domain`, and `data` per feature
+  - MVVM-style presentation, with `Cubit` or `BLoC` acting as the screen-level state holder similar to a ViewModel
   - BLoC or Cubit for state management
   - repository-based data access
 
@@ -53,6 +55,11 @@
 - Preserve the current lesson progress while steering new work toward the chat product
 - Keep early lessons simple, but avoid dumping all logic into one file long term
 - Prefer feature-first folders when the app gains real features
+- Apply Clean Architecture in a pragmatic way so the learner sees clear boundaries without getting buried in boilerplate
+- Use an MVVM-style presentation layer, where views stay lean and `Cubit` or `BLoC` plays the role of the screen-level state holder similar to a ViewModel
+- Keep domain entities separate from Firebase DTOs and separate both from UI state models
+- When teaching with simplified examples, explicitly label the temporary learning location and the intended long-term feature-first location
+- Use lesson explanations to connect UI files to their future presentation, data, model, and repository responsibilities as the architecture becomes real
 - Build Android first and defer iOS until the Android release flow is stable
 - Keep the backend simple by leaning on Firebase instead of a custom server
 - Keep the MVP to 1:1 chat before expanding the feature set

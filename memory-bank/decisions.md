@@ -20,3 +20,8 @@
 ## 2026-03-29
 - Annotate every teaching code sample with short comments for unfamiliar widgets and hard-to-read abstractions.
 - When a response must use a concept that has not been formally taught yet, explain its purpose and effect before relying on it.
+- In every lesson, explicitly explain where the current screen, file, folder, and related code should live in the planned repo architecture.
+- Even when an early lesson keeps code in a simplified file, also explain the long-term feature-first home for that code in the chat app repo.
+- Apply a pragmatic Clean Architecture direction for the chat app with feature-first `presentation`, `domain`, and `data` slices.
+- Use MVVM-style presentation together with Clean Architecture; in Flutter, `Cubit` or `BLoC` will serve as the screen-level state holder similar to a ViewModel.
+- Keep three model types distinct as the app grows: domain entities, Firebase DTOs, and UI state models.
