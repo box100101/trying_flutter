@@ -25,3 +25,5 @@
 - Apply a pragmatic Clean Architecture direction for the chat app with feature-first `presentation`, `domain`, and `data` slices.
 - Use MVVM-style presentation together with Clean Architecture; in Flutter, `Cubit` or `BLoC` will serve as the screen-level state holder similar to a ViewModel.
 - Keep three model types distinct as the app grows: domain entities, Firebase DTOs, and UI state models.
+- Standardize future teaching around the agreed `lib/core`, `lib/features/<feature>/{data,domain,presentation}`, `di`, and `routes` structure shared by the learner on 2026-03-29.
+- Inside each feature, treat `presentation/view_models` as the home of screen-level state holders such as `Cubit` or `BLoC`, `presentation/screens` as full screens, and `presentation/widgets` as feature-scoped reusable UI pieces.

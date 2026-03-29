@@ -23,7 +23,7 @@
 - Lesson 12: State fundamentals
 
 ## Current In-Progress Topic
-- Distinguishing local UI state from app state in the Android-first chat app, starting from the auth flow and the learner's login screen
+- Distinguishing local UI state from app state in the Android-first chat app, starting from the auth flow and mapping each responsibility into the agreed `core/features/.../di/routes` structure
 
 ## Evidence Required To Pass Current Gate
 - The learner can distinguish local UI state from app state in auth, profile, search, or chat flows
@@ -38,6 +38,7 @@
 - Saved on 2026-03-29: if a lesson response uses any new widget, API, pattern, or syntax before its dedicated lesson, explain what it does and what effect it has before asking the learner to use it
 - Saved on 2026-03-29: in every lesson, explicitly map each screen, file, or folder example to the planned repo architecture so the learner knows where it belongs
 - Saved on 2026-03-29: regularly connect lessons to the planned feature-first, BLoC/Cubit, model, and repository structure so the learner can visualize each layer's role in the chat app repo
+- Saved on 2026-03-29: teach all future lessons against the learner-approved structure with `lib/core`, `lib/features/<feature>/{data,domain,presentation}`, `di`, and `routes`, and explain any temporary mismatch with the current repo names
 
 ## Saved Project Direction
 - Saved on 2026-03-27: the course now uses an Android-first Firebase realtime chat app as the practical project track
@@ -51,6 +52,7 @@
 - Apply the new teaching preference in all future code examples by annotating unfamiliar widgets and explaining any newly introduced concepts
 - In each future lesson, call out the intended repo placement for the example being taught and explain whether that placement is temporary for learning simplicity or part of the long-term architecture
 - Reinforce that temporary screen-local state can stay inside the screen or a small widget, while shared auth state will later move into `presentation` state management objects such as `Cubit` or `BLoC`
+- Explicitly point out that the current repo already has `lib/core` and `lib/features/auth/...`, but future lessons should normalize naming toward the learner's preferred `screens` and `view_models` terminology
 
 ## Progress Rule
 - Phase progress only increases after the current milestone is explicitly passed against `mastery-checkpoints.md`

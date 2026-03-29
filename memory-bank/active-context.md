@@ -11,6 +11,8 @@
 - The user wants the memory bank to work alongside `AGENTS.md`, not replace it
 
 ## What Changed In This Session
+- Saved a new structure preference on 2026-03-29: teach all future lessons against the learner-approved `lib/core`, `lib/features/<feature>/{data,domain,presentation}`, `di`, and `routes` layout
+- Noted a current naming mismatch on 2026-03-29: the repo already resembles the target structure, but uses `features/auth` and `presentation/view_models` plus `screens` in some places, so future lessons should explain the desired target names explicitly
 - Reviewed the learner's Lesson 11 homework on 2026-03-29 and marked Phase 2 / Milestone 5 as passed
 - Advanced Phase 2 progress to 100% confirmed, completed Phase 2, and started Phase 3 / Lesson 12 on state fundamentals
 - Clarified a Lesson 11 layout-debugging subtopic on 2026-03-29: explain why a nested `Column -> Container -> Column -> Text` may appear to fill the screen only when an ancestor or property imposes larger constraints, and reinforce the `constraints go down, sizes go up, parent sets position` mental model
@@ -86,6 +88,7 @@
 - Use Phase 3 / Milestone 1 to teach local UI state vs app state by referencing the learner's auth screen and `Input` widget
 - Define the Firebase data model and Android-only setup plan before Phase 4 begins
 - In each lesson, state the intended repo location for the current example and explain how it fits the planned feature-first architecture
+- Use the learner-approved structure names (`screens`, `viewmodels`, `authentication` as an example feature name) in teaching, while clearly calling out when the current repo still uses transitional names
 - Teach upcoming features with separate domain entities, data DTOs, and UI state models so the Clean Architecture direction becomes concrete early
 - Keep explaining that MVVM is the presentation pattern inside the broader Clean Architecture, not a competing whole-project architecture
 
