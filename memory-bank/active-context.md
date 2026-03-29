@@ -4,13 +4,20 @@
 - 2026-03-29
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 2 / Lesson 11, preserve the user's current 80% confirmed progress, anchor future lessons to the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
+- Continue Flutter tutoring in Vietnamese with Phase 3 / Lesson 12, start from the learner's completed auth screen, teach local UI state vs app state for the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
 - The user wants the memory bank to work alongside `AGENTS.md`, not replace it
 
 ## What Changed In This Session
+- Reviewed the learner's Lesson 11 homework on 2026-03-29 and marked Phase 2 / Milestone 5 as passed
+- Advanced Phase 2 progress to 100% confirmed, completed Phase 2, and started Phase 3 / Lesson 12 on state fundamentals
+- Clarified a Lesson 11 layout-debugging subtopic on 2026-03-29: explain why a nested `Column -> Container -> Column -> Text` may appear to fill the screen only when an ancestor or property imposes larger constraints, and reinforce the `constraints go down, sizes go up, parent sets position` mental model
+- Synced the Figma Make `Realtime Messaging UI` color tokens into `lib/constants/app_colors.dart` on 2026-03-29, including light theme, dark theme, chart colors, sidebar colors, and hard-coded overlay colors used by the Make source
+- Cleaned an existing unused-variable warning in `lib/features/auth/presentation/screens/auth_welcome_screen.dart` on 2026-03-29 and verified the updated files with direct Dart SDK `format` and `analyze`
+- Continued Lesson 11 on 2026-03-29 by refactoring the starter app into a guided auth welcome screen example placed in `lib/features/auth/presentation/screens/auth_welcome_screen.dart`
+- Verified the new Lesson 11 sample with `dart format`, `flutter analyze`, and `flutter test`
 - Saved a new architecture decision on 2026-03-29: move the project toward pragmatic Clean Architecture with feature-first `presentation`, `domain`, and `data` slices
 - Saved a new presentation-pattern decision on 2026-03-29: use MVVM-style presentation with `Cubit` or `BLoC` acting like the screen-level ViewModel
 - Saved a new modeling rule on 2026-03-29: keep domain entities, Firebase DTOs, and UI state models separate
@@ -72,10 +79,11 @@
 - Saved a new tutoring rule on 2026-03-29: whenever a new widget, API, or concept appears before its dedicated lesson, explain its purpose and effect before using it
 
 ## Recommended Next Steps
+- Reuse `AppColors` as the single source of truth when converting the Figma Make login, register, profile, search, and chat screens into Flutter widgets
 - When closing the next lesson response, explicitly recap any active lesson questions and homework before waiting for the user's submission
 - In all future code samples, add concise inline comments for unfamiliar widgets and tricky abstractions
 - When introducing anything outside the learner's covered scope, explain what it does and why it is being used
-- Use Phase 2 / Milestone 5 to build the first product-aligned auth screen for the chat app and review the learner's explanation of its structure
+- Use Phase 3 / Milestone 1 to teach local UI state vs app state by referencing the learner's auth screen and `Input` widget
 - Define the Firebase data model and Android-only setup plan before Phase 4 begins
 - In each lesson, state the intended repo location for the current example and explain how it fits the planned feature-first architecture
 - Teach upcoming features with separate domain entities, data DTOs, and UI state models so the Clean Architecture direction becomes concrete early

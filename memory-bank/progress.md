@@ -56,3 +56,10 @@
 - Confirmed the learner can explain why assets must be registered in `pubspec.yaml`, distinguish `Icon` from `Image.asset`, justify theme-based styling, and complete the assigned chat card exercise acceptably.
 - Advanced Phase 2 progress to 80% confirmed.
 - Started Phase 2 / Lesson 11 on building a small product screen and assigned the next auth-screen checkpoint.
+- Continued Phase 2 / Lesson 11 by replacing the starter counter-style app flow with a guided auth welcome screen example in `lib/features/auth/presentation/screens/auth_welcome_screen.dart`.
+- Verified the guided Lesson 11 sample with `dart format`, `flutter analyze`, and `flutter test`.
+- Kept Phase 2 progress at 80% confirmed because Phase 2 / Milestone 5 still requires the learner's own screen submission and explanation.
+- Passed Phase 2 / Milestone 5: Build a small product screen.
+- Confirmed the learner can combine previous UI concepts into a coherent auth welcome/login screen, explain the roles of `SafeArea`, `Spacer`, and `main.dart`, and describe the main widget structure acceptably.
+- Advanced Phase 2 progress to 100% confirmed and completed Phase 2: Flutter UI Core.
+- Started Phase 3 / Lesson 12 on state fundamentals and assigned the next state-classification checkpoint.
