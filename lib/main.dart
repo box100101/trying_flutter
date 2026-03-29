@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trying_flutter/features/auth/presentation/screens/auth_welcome/auth_welcome_screen.dart';
+import 'package:trying_flutter/features/auth/presentation/screens/auth_welcome_screen/auth_welcome_screen.dart';
 
 void main() {
   runApp(const ChatCourseApp());

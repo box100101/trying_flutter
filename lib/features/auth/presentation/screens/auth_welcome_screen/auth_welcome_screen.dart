@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:trying_flutter/constants/app_colors.dart';
-import 'package:trying_flutter/shared/ui/button.dart';
-import 'package:trying_flutter/shared/ui/input.dart';
-import 'package:trying_flutter/features/auth/presentation/screens/auth_welcome/template/ic_app.dart';
+import 'package:trying_flutter/core/constants/app_colors.dart';
+import 'package:trying_flutter/core/widgets/button.dart';
+import 'package:trying_flutter/core/widgets/input.dart';
+import 'package:trying_flutter/features/auth/presentation/screens/auth_welcome_screen/widgets/ic_app.dart';
 
 class AuthWelcomeScreen extends StatelessWidget {
   const AuthWelcomeScreen({super.key});
