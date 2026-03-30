@@ -63,3 +63,13 @@
 - Confirmed the learner can combine previous UI concepts into a coherent auth welcome/login screen, explain the roles of `SafeArea`, `Spacer`, and `main.dart`, and describe the main widget structure acceptably.
 - Advanced Phase 2 progress to 100% confirmed and completed Phase 2: Flutter UI Core.
 - Started Phase 3 / Lesson 12 on state fundamentals and assigned the next state-classification checkpoint.
+- Continued Phase 3 / Lesson 12 with a repo-based sign-in example that distinguishes screen-local state from future shared auth state.
+- Updated the current sign-in teaching example so the screen owns submit/loading and helper-message state, the shared `Input` widget hides password text by default for password fields, and `Button` reflects a disabled visual state.
+- Verified the Lesson 12 code changes with `flutter analyze`.
+- Kept Phase 3 progress at 0% confirmed because Phase 3 / Milestone 1 still requires the learner's own state classification and explanation.
+
+## 2026-03-30
+- Passed Phase 3 / Milestone 1: State fundamentals.
+- Confirmed the learner can distinguish local UI state from app state in the auth flow, explain why `currentUser` must outlive the sign-in screen, and place shared auth state in the `presentation/view_models` layer.
+- Advanced Phase 3 progress to 20% confirmed.
+- Started Phase 3 / Lesson 13 on the BLoC mental model and assigned the next auth-flow mapping checkpoint.

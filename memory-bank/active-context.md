@@ -1,16 +1,21 @@
 # Active Context
 
 ## Snapshot Date
-- 2026-03-29
+- 2026-03-30
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 3 / Lesson 12, start from the learner's completed auth screen, teach local UI state vs app state for the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
+- Continue Flutter tutoring in Vietnamese with Phase 3 / Lesson 13, start from the learner's current sign-in screen, teach the BLoC mental model for the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
 - The user wants the memory bank to work alongside `AGENTS.md`, not replace it
 
 ## What Changed In This Session
+- Reviewed the learner's Lesson 12 answers on 2026-03-30 and marked Phase 3 / Milestone 1 as passed
+- Advanced Phase 3 progress to 20% confirmed on 2026-03-30 and started Lesson 13 on the BLoC mental model
+- Continued Lesson 12 on 2026-03-29 by grounding the state-management explanation in the repo's current `lib/features/auth/presentation/screens/sign_in/sign_in_screen.dart` screen instead of the older auth-welcome naming from previous notes
+- Added a repo-based local-state example on 2026-03-29: the sign-in screen now tracks screen-level submit/loading state and helper text, the shared `Input` widget starts password text hidden for password fields, and `Button` now shows a disabled visual state when `onPressed` is null
+- Verified the updated Lesson 12 example with `flutter analyze` on 2026-03-29
 - Saved a new structure preference on 2026-03-29: teach all future lessons against the learner-approved `lib/core`, `lib/features/<feature>/{data,domain,presentation}`, `di`, and `routes` layout
 - Noted a current naming mismatch on 2026-03-29: the repo already resembles the target structure, but uses `features/auth` and `presentation/view_models` plus `screens` in some places, so future lessons should explain the desired target names explicitly
 - Reviewed the learner's Lesson 11 homework on 2026-03-29 and marked Phase 2 / Milestone 5 as passed
@@ -85,7 +90,7 @@
 - When closing the next lesson response, explicitly recap any active lesson questions and homework before waiting for the user's submission
 - In all future code samples, add concise inline comments for unfamiliar widgets and tricky abstractions
 - When introducing anything outside the learner's covered scope, explain what it does and why it is being used
-- Use Phase 3 / Milestone 1 to teach local UI state vs app state by referencing the learner's auth screen and `Input` widget
+- Use Phase 3 / Milestone 2 to teach the BLoC mental model by mapping the learner's current `sign_in` flow into user events, business logic, output states, and UI reactions
 - Define the Firebase data model and Android-only setup plan before Phase 4 begins
 - In each lesson, state the intended repo location for the current example and explain how it fits the planned feature-first architecture
 - Use the learner-approved structure names (`screens`, `viewmodels`, `authentication` as an example feature name) in teaching, while clearly calling out when the current repo still uses transitional names
@@ -95,6 +100,7 @@
 ## Watchouts
 - `AGENTS.md` defines a teaching-first role, so future work should preserve that tone
 - The current app source likely needs cleanup before being used as a lesson foundation
+- The repo has moved from older auth-welcome naming toward `sign_in`, so future lessons should trust the current file tree over stale snapshot paths
 - Learning progress should be updated in `memory-bank/learning-status.md` after each meaningful teaching checkpoint
 - Keep the lesson flow micro-sized and interactive; wait for the user's homework before moving to the next core topic
 - Progress must stay unchanged until the current milestone is validated against `mastery-checkpoints.md`
@@ -105,6 +111,7 @@
 - When the current lesson uses a simplified single-file example, distinguish clearly between the temporary teaching location and the long-term architecture location
 - Do not collapse domain models, Firebase models, and UI state into one catch-all model class
 - Do not mix up the presentation pattern choice (`MVVM` style) with the broader project architecture choice (`Clean Architecture`)
+- The current repo already has `data`, `domain`, and `presentation/view_models`, so future explanations should leverage those folders instead of pretending the structure is still missing
 - Do not reset the current phase progress just because the course project direction became clearer
 - Keep the scope Android-only for now
 - Treat the product as 1:1 chat first; group chat, calls, and iOS can come later

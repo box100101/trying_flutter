@@ -8,13 +8,15 @@ class Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isEnabled = onPressed != null;
+
     return GestureDetector(
       onTap: onPressed,
       child: Container(
-        padding: EdgeInsets.fromLTRB(12, 8, 12, 8),
+        padding: const EdgeInsets.fromLTRB(12, 8, 12, 8),
         width: double.infinity,
         decoration: BoxDecoration(
-          color: AppColors.primary,
+          color: isEnabled ? AppColors.primary : AppColors.mutedForeground,
           borderRadius: BorderRadius.circular(6),
         ),
         alignment: Alignment.center,

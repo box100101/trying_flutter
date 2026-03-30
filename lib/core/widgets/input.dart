@@ -22,6 +22,15 @@ class Input extends StatefulWidget {
 class _InputState extends State<Input> {
   bool _obscureText = false;
 
+  bool get _isPasswordField =>
+      widget.keyboardType == TextInputType.visiblePassword;
+
+  @override
+  void initState() {
+    super.initState();
+    _obscureText = _isPasswordField;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -39,7 +48,7 @@ class _InputState extends State<Input> {
             controller: widget.controller,
             decoration: InputDecoration(
               hintText: widget.hintText ?? 'Nhập dữ liệu',
-              suffixIcon: widget.keyboardType == TextInputType.visiblePassword
+              suffixIcon: _isPasswordField
                   ? IconButton(
                       icon: Icon(
                         _obscureText ? Icons.visibility : Icons.visibility_off,
@@ -68,7 +77,7 @@ class _InputState extends State<Input> {
               ),
               fillColor: AppColors.inputBackground,
               filled: true,
-              hintStyle: TextStyle(color: AppColors.darkMutedForeground)
+              hintStyle: TextStyle(color: AppColors.darkMutedForeground),
             ),
             keyboardType: widget.keyboardType ?? TextInputType.text,
             obscureText: _obscureText,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trying_flutter/features/auth/presentation/screens/auth_welcome_screen/auth_welcome_screen.dart';
+import 'package:trying_flutter/features/auth/presentation/screens/sign_in/sign_in_screen.dart';
 
 void main() {
   runApp(const ChatCourseApp());
@@ -18,7 +18,7 @@ class ChatCourseApp extends StatelessWidget {
         scaffoldBackgroundColor: const Color(0xFFF5F7F4),
       ),
       debugShowCheckedModeBanner: false,
-      home: const AuthWelcomeScreen(),
+      home: const SignInScreen(),
     );
   }
 }
