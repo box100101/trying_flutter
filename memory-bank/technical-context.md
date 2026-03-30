@@ -18,8 +18,8 @@
 - Planned architecture direction:
   - feature-first folders
   - pragmatic Clean Architecture with `presentation`, `domain`, and `data` per feature
-  - MVVM-style presentation, with `Cubit` or `BLoC` acting as the screen-level state holder similar to a ViewModel
-  - BLoC or Cubit for state management
+  - MVVM-style presentation, with `Cubit` acting as the screen-level state holder similar to a ViewModel
+  - Cubit for state management
   - repository-based data access
 
 ## Product Scope
@@ -56,7 +56,7 @@
 - Keep early lessons simple, but avoid dumping all logic into one file long term
 - Prefer feature-first folders when the app gains real features
 - Apply Clean Architecture in a pragmatic way so the learner sees clear boundaries without getting buried in boilerplate
-- Use an MVVM-style presentation layer, where views stay lean and `Cubit` or `BLoC` plays the role of the screen-level state holder similar to a ViewModel
+- Use an MVVM-style presentation layer, where views stay lean and `Cubit` plays the role of the screen-level state holder similar to a ViewModel
 - Keep domain entities separate from Firebase DTOs and separate both from UI state models
 - When teaching with simplified examples, explicitly label the temporary learning location and the intended long-term feature-first location
 - Use lesson explanations to connect UI files to their future presentation, data, model, and repository responsibilities as the architecture becomes real
@@ -66,7 +66,7 @@
 
 ## Known Unknowns
 - No Firebase project or Android `google-services` configuration has been added yet
-- No confirmed package strategy yet for BLoC, Firebase wrappers, image picking, or notifications
+- No confirmed package strategy yet for Cubit, Firebase wrappers, image picking, or notifications
 - Firestore collections, document IDs, indexes, and security rules are not designed yet
 - Offline expectations, avatar upload limits, and user-search constraints are not defined yet
 - CI/CD, signing, Fastlane lanes, and Firebase App Distribution are not configured yet

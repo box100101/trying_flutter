@@ -72,4 +72,7 @@
 - Passed Phase 3 / Milestone 1: State fundamentals.
 - Confirmed the learner can distinguish local UI state from app state in the auth flow, explain why `currentUser` must outlive the sign-in screen, and place shared auth state in the `presentation/view_models` layer.
 - Advanced Phase 3 progress to 20% confirmed.
-- Started Phase 3 / Lesson 13 on the BLoC mental model and assigned the next auth-flow mapping checkpoint.
+- Started Phase 3 / Lesson 13 on the Cubit mental model and assigned the next auth-flow mapping checkpoint.
+- Restarted Phase 3 / Lesson 13 at the learner's request and re-assigned the Cubit mental-model homework using the current `sign_in` screen flow.
+- Saved a course-direction decision to use Cubit instead of BLoC for state management and synced roadmap/checkpoints/learning-context wording.
+- Kept Phase 3 progress unchanged at 20% confirmed because no new milestone was validated.

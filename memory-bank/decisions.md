@@ -23,7 +23,11 @@
 - In every lesson, explicitly explain where the current screen, file, folder, and related code should live in the planned repo architecture.
 - Even when an early lesson keeps code in a simplified file, also explain the long-term feature-first home for that code in the chat app repo.
 - Apply a pragmatic Clean Architecture direction for the chat app with feature-first `presentation`, `domain`, and `data` slices.
-- Use MVVM-style presentation together with Clean Architecture; in Flutter, `Cubit` or `BLoC` will serve as the screen-level state holder similar to a ViewModel.
+- Use MVVM-style presentation together with Clean Architecture; in Flutter, `Cubit` will serve as the screen-level state holder similar to a ViewModel.
 - Keep three model types distinct as the app grows: domain entities, Firebase DTOs, and UI state models.
 - Standardize future teaching around the agreed `lib/core`, `lib/features/<feature>/{data,domain,presentation}`, `di`, and `routes` structure shared by the learner on 2026-03-29.
-- Inside each feature, treat `presentation/view_models` as the home of screen-level state holders such as `Cubit` or `BLoC`, `presentation/screens` as full screens, and `presentation/widgets` as feature-scoped reusable UI pieces.
+- Inside each feature, treat `presentation/view_models` as the home of screen-level state holders such as `Cubit`, `presentation/screens` as full screens, and `presentation/widgets` as feature-scoped reusable UI pieces.
+
+## 2026-03-30
+- Switch course state-management teaching from BLoC-first to Cubit-first.
+- Keep Phase 3 milestone validation strict and unchanged; only the state-management pattern focus changed.

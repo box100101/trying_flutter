@@ -114,25 +114,25 @@ This file defines the milestones that gate learning progress. Progress can only 
   - the learner understands why state management is needed
 
 ### Milestone 2
-- Name: BLoC mental model
+- Name: Cubit mental model
 - Weight: 20%
 - Pass when:
-  - the learner can explain events, states, and flow through a BLoC
-  - the learner can map an auth, profile, search, or chat feature into this model
+  - the learner can explain Cubit state flow and why Cubit does not require separate event classes
+  - the learner can map an auth, profile, search, or chat feature into `UI action -> Cubit method -> emitted state -> UI reaction`
 
 ### Milestone 3
-- Name: BLoC implementation
+- Name: Cubit implementation
 - Weight: 20%
 - Pass when:
-  - the learner can create a small BLoC or Cubit-based flow for an app feature such as auth, profile, or chat
+  - the learner can create a small Cubit-based flow for an app feature such as auth, profile, or chat
   - the learner handles basic state transitions correctly
 
 ### Milestone 4
 - Name: UI integration
 - Weight: 20%
 - Pass when:
-  - the learner can wire UI to BLoC using the right builders/listeners in a product screen
-  - the learner avoids common rebuild or event mistakes
+  - the learner can wire UI to Cubit using the right builders/listeners in a product screen
+  - the learner avoids common rebuild or state-transition trigger mistakes
 
 ### Milestone 5
 - Name: Testing and refinement

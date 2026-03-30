@@ -4,15 +4,17 @@
 - 2026-03-30
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 3 / Lesson 13, start from the learner's current sign-in screen, teach the BLoC mental model for the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
+- Continue Flutter tutoring in Vietnamese with Phase 3 / Lesson 13, start from the learner's current sign-in screen, teach the Cubit mental model for the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
 - The user wants the memory bank to work alongside `AGENTS.md`, not replace it
 
 ## What Changed In This Session
+- Restarted Phase 3 / Lesson 13 on 2026-03-30 at the learner's request and re-assigned the Cubit mental-model checkpoint using the current `sign_in` screen
+- Saved a course-direction update on 2026-03-30: switch state management teaching from BLoC-first to Cubit-first and sync roadmap/checkpoints/homework wording to match
 - Reviewed the learner's Lesson 12 answers on 2026-03-30 and marked Phase 3 / Milestone 1 as passed
-- Advanced Phase 3 progress to 20% confirmed on 2026-03-30 and started Lesson 13 on the BLoC mental model
+- Advanced Phase 3 progress to 20% confirmed on 2026-03-30 and started Lesson 13 on the Cubit mental model
 - Continued Lesson 12 on 2026-03-29 by grounding the state-management explanation in the repo's current `lib/features/auth/presentation/screens/sign_in/sign_in_screen.dart` screen instead of the older auth-welcome naming from previous notes
 - Added a repo-based local-state example on 2026-03-29: the sign-in screen now tracks screen-level submit/loading state and helper text, the shared `Input` widget starts password text hidden for password fields, and `Button` now shows a disabled visual state when `onPressed` is null
 - Verified the updated Lesson 12 example with `flutter analyze` on 2026-03-29
@@ -26,10 +28,10 @@
 - Continued Lesson 11 on 2026-03-29 by refactoring the starter app into a guided auth welcome screen example placed in `lib/features/auth/presentation/screens/auth_welcome_screen.dart`
 - Verified the new Lesson 11 sample with `dart format`, `flutter analyze`, and `flutter test`
 - Saved a new architecture decision on 2026-03-29: move the project toward pragmatic Clean Architecture with feature-first `presentation`, `domain`, and `data` slices
-- Saved a new presentation-pattern decision on 2026-03-29: use MVVM-style presentation with `Cubit` or `BLoC` acting like the screen-level ViewModel
+- Saved a new presentation-pattern decision on 2026-03-29: use MVVM-style presentation with `Cubit` acting like the screen-level ViewModel
 - Saved a new modeling rule on 2026-03-29: keep domain entities, Firebase DTOs, and UI state models separate
 - Saved a new tutoring rule on 2026-03-29: every lesson should explain where the current screen, file, or folder belongs in the repo architecture
-- Saved a new tutoring rule on 2026-03-29: regularly connect lesson examples to the planned feature-first, BLoC/Cubit, model, and repository structure so the learner can picture how the repo will evolve
+- Saved a new tutoring rule on 2026-03-29: regularly connect lesson examples to the planned feature-first, Cubit-first, model, and repository structure so the learner can picture how the repo will evolve
 - Reviewed the user's Lesson 10 answers on 2026-03-29 and marked Phase 2 / Milestone 4 as passed
 - Advanced Phase 2 progress to 80% confirmed and started Lesson 11 on building a small auth screen for the chat app
 - Resumed Phase 2 / Lesson 10 on 2026-03-27 and kept progress at 60% confirmed while focusing on assets and theming for the Android-first chat app
@@ -90,7 +92,7 @@
 - When closing the next lesson response, explicitly recap any active lesson questions and homework before waiting for the user's submission
 - In all future code samples, add concise inline comments for unfamiliar widgets and tricky abstractions
 - When introducing anything outside the learner's covered scope, explain what it does and why it is being used
-- Use Phase 3 / Milestone 2 to teach the BLoC mental model by mapping the learner's current `sign_in` flow into user events, business logic, output states, and UI reactions
+- Use Phase 3 / Milestone 2 to teach the Cubit mental model by mapping the learner's current `sign_in` flow into `UI action -> Cubit method -> emitted state -> UI reaction`
 - Define the Firebase data model and Android-only setup plan before Phase 4 begins
 - In each lesson, state the intended repo location for the current example and explain how it fits the planned feature-first architecture
 - Use the learner-approved structure names (`screens`, `viewmodels`, `authentication` as an example feature name) in teaching, while clearly calling out when the current repo still uses transitional names

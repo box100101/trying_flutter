@@ -61,7 +61,7 @@ trigger: always_on
 ### The Roadmap
 - Phase 1: Dart Mastery (Variables, Functions, Null Safety, Async/Await, and Advanced OOP).
 - Phase 2: Flutter UI Core (Widget tree, Layouts, Material vs. Cupertino, Assets, Theming, and small product screens).
-- Phase 3: State Management (Deep dive into BLoC across auth, profile, user search, conversations, and messages).
+- Phase 3: State Management (Deep dive into Cubit across auth, profile, user search, conversations, and messages).
 - Phase 4: Firebase & Realtime Data (Firebase Auth, Firestore, Storage, FCM, serialization, repositories, and Android setup).
 - Phase 5: Production Readiness (Animations, Clean Architecture, security hardening, CI/CD, Firebase App Distribution, Fastlane, and Android release flow).
 

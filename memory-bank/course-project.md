@@ -40,7 +40,7 @@
 ## Phase Mapping
 - Phase 1: Dart concepts that support async work, modeling, and safe data handling
 - Phase 2: Auth, profile, chat list, chat room, and reusable UI screens
-- Phase 3: BLoC for auth session, profile, search, conversation, and message state
+- Phase 3: Cubit for auth session, profile, search, conversation, and message state
 - Phase 4: Firebase Auth, Firestore, Storage, FCM, models, and repositories
 - Phase 5: Security rules, Android release setup, Fastlane, Firebase App Distribution, and production hardening
 

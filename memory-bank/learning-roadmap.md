@@ -6,12 +6,12 @@
   Topics: Variables, Functions, Null Safety, Async/Await, Advanced OOP
   Project tie-in: Async flow, null safety, and modeling foundations for auth, profile, and chat features
 - Phase 2: Flutter UI Core
-  Status: In progress, 60% confirmed as of 2026-03-27
+  Status: Completed on 2026-03-29
   Topics: Widget tree, Layouts, Material vs. Cupertino, Assets, Theming, Small product screens
   Project tie-in: Auth, profile, chat list, chat room, and reusable UI building blocks
 - Phase 3: State Management
-  Status: Not started
-  Topics: Deep dive into BLoC for auth, profile, user search, conversations, and messages
+  Status: In progress, 20% confirmed as of 2026-03-30
+  Topics: Deep dive into Cubit for auth, profile, user search, conversations, and messages
 - Phase 4: Firebase and Realtime Data
   Status: Not started
   Topics: Firebase Auth, Firestore, Storage, FCM, serialization, repositories, and offline-aware flows
@@ -20,8 +20,8 @@
   Topics: UX polish, Animations, Clean Architecture, security hardening, CI/CD, Fastlane, Firebase App Distribution, Android release flow
 
 ## Current Lesson
-- Lesson 10: Assets and theming
-- Status on 2026-03-27: In progress and awaiting Phase 2 / Milestone 4 validation
+- Lesson 13: Cubit mental model
+- Status on 2026-03-30: In progress and awaiting Phase 3 / Milestone 2 validation
 
 ## Course Product Anchor
 - Product: Android-first realtime chat app with Firebase
@@ -39,6 +39,6 @@
 - Wait for the user's response before moving to the next topic
 
 ## Next Natural Moves
-- Review Lesson 10 in Vietnamese and validate Phase 2 / Milestone 4 without moving progress early
-- Use Phase 2 / Milestone 5 to build the first product-aligned screen for the chat app
+- Use the learner's current `sign_in` screen to teach the Cubit mental model without Firebase wiring yet
+- Validate Phase 3 / Milestone 2 after the learner maps `UI action -> Cubit method -> emitted state -> UI reaction`
 - Prepare the Firebase data model and Android-first delivery plan before Phase 4 begins
