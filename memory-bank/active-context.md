@@ -1,16 +1,23 @@
 # Active Context
 
 ## Snapshot Date
-- 2026-03-30
+- 2026-04-06
 
 ## Current Focus
-- Continue Flutter tutoring in Vietnamese with Phase 3 / Lesson 13, start from the learner's current sign-in screen, teach the Cubit mental model for the Android-first Firebase chat app, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
+- Continue Flutter tutoring in Vietnamese with Phase 3 / Lesson 14, move from Cubit mental model to Cubit implementation using the learner's current sign-in flow, keep Android-first Firebase chat app context, consistently restate end-of-lesson questions and homework, and explicitly map lesson examples to the planned repo architecture
 
 ## Assumptions
 - "Build memory bank to save context" refers to persistent repo context for the assistant workflow, not an in-app end-user storage feature
 - The user wants the memory bank to work alongside `AGENTS.md`, not replace it
 
 ## What Changed In This Session
+- Re-reviewed the learner's corrected Lesson 13 submission on 2026-04-06, passed Phase 3 / Milestone 2, advanced Phase 3 progress to 40%, and started Lesson 14 on Cubit implementation
+- Reviewed the learner's Lesson 13 submission on 2026-04-06 and kept Phase 3 / Milestone 2 as Needs review due one missing required explanation (why Cubit does not need separate event classes)
+- Received a learner request for a super-detailed explanation of the newly integrated Cubit UI code and prepared a line-by-line walkthrough
+- Continued Phase 3 / Lesson 13 on 2026-04-06 by integrating `SignInCubit` into `sign_in_screen.dart` with `BlocProvider` and `BlocConsumer`
+- Replaced local submit/error state handling in the sign-in screen with Cubit-driven state handling (`SignInLoading`, `SignInSuccess`, `SignInFailure`)
+- Added Cubit listener side effects (SnackBar) and builder-driven UI updates so the button and message react to emitted states
+- Attempted to verify with `flutter analyze`, but sandbox restrictions blocked Flutter SDK cache writes and the escalated run request was rejected
 - Restarted Phase 3 / Lesson 13 on 2026-03-30 at the learner's request and re-assigned the Cubit mental-model checkpoint using the current `sign_in` screen
 - Saved a course-direction update on 2026-03-30: switch state management teaching from BLoC-first to Cubit-first and sync roadmap/checkpoints/homework wording to match
 - Reviewed the learner's Lesson 12 answers on 2026-03-30 and marked Phase 3 / Milestone 1 as passed
@@ -92,7 +99,7 @@
 - When closing the next lesson response, explicitly recap any active lesson questions and homework before waiting for the user's submission
 - In all future code samples, add concise inline comments for unfamiliar widgets and tricky abstractions
 - When introducing anything outside the learner's covered scope, explain what it does and why it is being used
-- Use Phase 3 / Milestone 2 to teach the Cubit mental model by mapping the learner's current `sign_in` flow into `UI action -> Cubit method -> emitted state -> UI reaction`
+- Use Phase 3 / Milestone 3 to teach Cubit implementation by extending the current `sign_in` flow with one additional transition path and verifying the paired UI reaction
 - Define the Firebase data model and Android-only setup plan before Phase 4 begins
 - In each lesson, state the intended repo location for the current example and explain how it fits the planned feature-first architecture
 - Use the learner-approved structure names (`screens`, `viewmodels`, `authentication` as an example feature name) in teaching, while clearly calling out when the current repo still uses transitional names

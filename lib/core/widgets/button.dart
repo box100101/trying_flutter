@@ -20,7 +20,10 @@ class Button extends StatelessWidget {
           borderRadius: BorderRadius.circular(6),
         ),
         alignment: Alignment.center,
-        child: Text(title, style: TextStyle(color: AppColors.white)),
+        child: Text(
+          title,
+          style: TextStyle(color: AppColors.white, fontWeight: FontWeight.bold),
+        ),
       ),
     );
   }

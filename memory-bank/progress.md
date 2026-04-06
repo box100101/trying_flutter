@@ -76,3 +76,13 @@
 - Restarted Phase 3 / Lesson 13 at the learner's request and re-assigned the Cubit mental-model homework using the current `sign_in` screen flow.
 - Saved a course-direction decision to use Cubit instead of BLoC for state management and synced roadmap/checkpoints/learning-context wording.
 - Kept Phase 3 progress unchanged at 20% confirmed because no new milestone was validated.
+
+## 2026-04-06
+- Continued Phase 3 / Lesson 13 by implementing Cubit-to-UI integration in `lib/features/auth/presentation/screens/sign_in/sign_in_screen.dart`.
+- Replaced local submit/loading/error UI logic with `SignInCubit` state flow and connected the UI through `BlocProvider` plus `BlocConsumer`.
+- Added `listener` side effects (success/failure snackbars) and `builder`-based UI rendering for loading, error text, and disabled submit button.
+- Added a deep-dive teaching checkpoint: explain the integrated code line by line so the learner can reason about Cubit injection, method calls, state emission, side effects, and rebuild flow.
+- Reviewed the learner's Lesson 13 answers: state-flow mapping and state-role explanations are mostly correct, but Milestone 2 remains `Needs review` because the learner has not yet explicitly explained why Cubit does not require separate event classes and only partially explained `context.read` vs `context.watch`.
+- Re-reviewed the learner's corrected Lesson 13 answers and passed Phase 3 / Milestone 2 after the learner clearly explained `read` vs `watch`, explained why Cubit methods replace separate event classes, and mapped the full auth flow correctly.
+- Advanced Phase 3 progress to 40% confirmed.
+- Started Phase 3 / Lesson 14 on Cubit implementation and assigned the next checkpoint on adding one extra Cubit state transition path and explaining the paired UI reaction.
